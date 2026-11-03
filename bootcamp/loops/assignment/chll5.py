@@ -11,13 +11,12 @@ while True:
     if fl_input == 0:
         break
     count += 1
-    if count >= 1:
+    if count == 1:
         product = 1
-    product *= fl_input
     sum += fl_input
-    if count > 1:
-        average = sum/count
-print(sum)
-print(product)
-print(average)
+    average = sum/count
+    product *= fl_input
+print(f"sum : {sum}")
+print(f"product : {product}")
+print(f"average : {average}")
 

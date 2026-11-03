@@ -36,7 +36,7 @@ print(new_value)
 
 # 5. str.count()
 txt = 'I learn python , python is cool!'
-n = txt.lower()count('python')
+n = txt.lower().count('python')
 print(n)
 print(txt.count('y'))
 

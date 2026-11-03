@@ -12,7 +12,7 @@
 #         break
 #     print('you loose')
 
-a = int(input('eneter num: '))
+a = int(input('enter num: '))
 while a > 1:
     b = a // 2
     while b > 1:

@@ -10,9 +10,9 @@ SPEED_INCREMENT = 3      # Speed reduction per food item (makes snake faster)
 MIN_SPEED = 40           # Maximum cap on game speed
 
 # Colors for the Nokia Snake Xenzia retro theme
-BG_COLOR = "#A3B899"      # Classic monochrome greenish background
-SNAKE_COLOR = "#1C2418"   # Dark pixel snake
-FOOD_COLOR = "#33422F"    # Dark pixel food
+BG_COLOR = "#21A44D"      # Classic monochrome greenish background
+SNAKE_COLOR = "#A44418"   # Dark pixel snake
+FOOD_COLOR = "#A4590E"    # Dark pixel food
 
 class SnakeXenzia:
     def __init__(self, root):
